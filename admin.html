@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>admin</title>
+</head>
+<style>
+    table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {background-color: #f2f2f2;}
+
+label{
+    border: 1px solid antiquewhite ;
+    background-color: antiquewhite;
+    padding: 0;
+    width: cover;
+    height: 21px;
+    box-shadow: #f2f2f2 5px 5px;
+}
+#main-form{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 30px;
+}
+
+#btn-Submit{
+    padding: 10px;
+    border: 1px solid #0D6EFD ;
+    color: white;
+    border-radius: 10%;
+    background-color: #0D6EFD;
+}
+</style>
+<body>
+    <h2>My Projects</h2>
+    <form id="main-form">
+        <label>@
+            <input type="text" id="project-name" placeholder="Project Name">
+        </label>
+        <label>@
+            <input type="text" id="project-img" placeholder="Image URL">
+        </label>
+        <label>@
+            <input type="text" id="projects-link" placeholder="Link">
+        </label>
+        <label>@
+            <input type="text" id="project-tags" placeholder="Tags (Ex: React,Angular)">
+        </label>
+
+        <button type="submit" id="btn-Submit">+ New Project</button>
+    </form>
+    <br>
+    <br>
+    <table>
+        <thead>
+            <tr>
+                <th>#</th>
+                <th>Project Name</th>
+                <th>Image URL</th>
+                <th>Link</th>
+                <th>Tags</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody id="table-body"></tbody>
+    </table>
+    <script src="admin.js"></script>
+</body>
+</html>

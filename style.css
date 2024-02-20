@@ -1,0 +1,294 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    margin: 20px 100px;
+}
+.navbar{
+    margin-left: -100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    z-index: inherit;
+    overflow: auto;
+    -webkit-overflow-scrolling: touch;
+    font-family: "Source Sans Pro Topnav", sans-serif;
+    border-top: none;
+    letter-spacing: 0;
+    cursor: default;
+    background-color: #fefefe;
+    color: #fefefe3d;
+}
+.navbarcon{
+    width: 609px;
+    height: 26px;
+    display: flex;
+    justify-content: space-around;
+    font-family: DM Sans;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: rgba(102, 102, 102, 1);
+;
+}
+.group-1{
+    width: 130px;
+    height: 32px;
+}
+.component{
+    margin-top: 150px;
+    display: flex;
+    justify-content: space-between;
+}
+.mytechstack h2{
+    margin-top: 100px;
+    font-family: Poppins;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 26px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: rgba(66, 68, 110, 1);
+
+}
+.mytechstack p{
+    margin-top: 60px;
+    font-family: Poppins;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: rgba(102, 102, 102, 1);
+}
+.techstack{
+    margin: 100px 100px ;
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    gap: 50px;
+}
+.project h2{
+    font-family: Poppins;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 26px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: rgba(66, 68, 110, 1);
+;
+}
+.project p{
+    margin-top: 30px;
+    font-family: Poppins;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: rgba(102, 102, 102, 1);
+}
+.myprojects{
+    margin: 50px 100px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 30px;
+}
+.content{
+    background: rgba(255, 255, 255, 1);
+    box-shadow: 2px 2px 100px 0px rgba(0, 0, 0, 0.2);  
+    width: 375px;
+    height: 567px;
+    border-radius: 20px;
+}
+.tile{
+    font-family: Poppins;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0px;
+    text-align: center;
+    padding: 20px;
+}
+.sample{
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 26px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: rgba(102, 102, 102, 1);
+    margin: 5px 25px;
+}
+.stack{
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 26px;
+    letter-spacing: 0px;
+    text-align: left;
+    margin-left: 25px;
+}
+.link-git{
+    display: flex;
+    justify-content: space-around;
+    margin: 15px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+footer{
+    margin: 100px 100px 50px 100px;
+}
+.footer-1{
+    display: grid;
+    grid-template-columns:55% 12% 18% 15% ;
+    align-items: center;
+    font-family:  DM Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0px;
+    text-align: left;
+    margin-bottom: 20px;
+    color: rgba(66, 68, 110, 1);
+}
+.footer-2{
+    display: flex;
+    justify-content: space-between;
+    margin-top:  20px; ;
+}
+.menu-2{
+    display: grid;
+    width: 554px;
+    grid-template-columns: repeat(5,1fr);
+    column-gap: 30px;
+    font-family: DM Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: rgba(66, 68, 110, 1);
+}
+.group-1{
+    width: 130px;
+    display: flex;
+    justify-content: space-between;
+}
+.group-2{
+    width: 130px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-3{
+    display: flex;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: rgba(102, 102, 102, 1);
+}
+.nicolas{
+    width: 636px;
+    height: 297px;
+    font-family: Poppins;
+    font-size: 58px;
+    font-weight: 700;
+    line-height: 70px;
+    letter-spacing: -1px;
+    text-align: left;
+
+}
+.animated-text {
+    font-size: 58px;
+    font-weight: bold;
+    background: linear-gradient(to right, rgba(0, 253, 238, 1), rgba(143, 0, 255, 1));
+    -webkit-background-clip: text;
+    color: transparent;
+    animation: colorChange 5s linear infinite;
+}
+
+@keyframes colorChange {
+    0% {
+    background-position: 100% 0;
+    }
+    100% {
+    background-position: -100% 0;
+    }
+}.animated-text2{
+    margin-left: 2px;
+    margin-right: 2px;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0px;
+    text-align: center;
+    background: linear-gradient(to right, rgba(0, 253, 238, 1), rgba(143, 0, 255, 1));
+    -webkit-background-clip: text;
+    color: transparent;
+    animation: colorChange 5s linear infinite;
+}
+#navhome:hover{
+    color: lightcoral;
+}
+#navabout:hover{
+    color: lightcoral;
+}
+#navtechstack:hover{
+    color: lightcoral;
+}
+#navproject:hover{
+    color: lightcoral;
+}
+#navcontact:hover{
+    color: lightcoral;
+}
+#avatar{
+    width: 350px;
+    height:350px;
+    border-radius: 50%;
+    border: 5px solid rgb(182, 102, 244);
+
+}
+.phone:hover{
+    text-decoration: underline;
+    color: blue;
+}
+.email:hover{
+    text-decoration: underline;
+    color: blue;
+}
+.content:hover{
+    box-shadow: 1px 1px 5px 0px rgb(0, 252, 113);
+    animation-name : examPle;
+    animation-duration: 2s;
+    animation-delay: 1s;
+}
+@keyframes examPle {
+    0% {box-shadow: 2px 2px 5px 0px rgb(0, 252, 113);}
+    50%  {box-shadow: 2px 2px 5px 0px rgb(0, 187, 0)}
+    75%  {box-shadow: 2px 2px 5px 0px rgb(8, 105, 8)}
+    100%  {box-shadow: 2px 2px 5px 0px rgb(2, 56, 2)}
+}
+.tech{
+    text-align: center;
+}
+.tech:hover{
+    box-shadow: 1px 1px 5px 0px rgb(0, 252, 113);
+    animation-name : examPle;
+    animation-duration: 2s;
+    animation-delay: 2s;
+}
